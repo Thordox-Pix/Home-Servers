@@ -5,10 +5,11 @@ Raspberry Pi5 8GB
 Hostname: RPi5-0
 
 Services:
-  
-  -[Pihole](http://10.10.10.10/admin)
+
 
 IP: 10.10.10.10
+  
+  -[Pihole](http://10.10.10.10/admin)
 
 Dell Optiplex
 
