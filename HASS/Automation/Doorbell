@@ -1,0 +1,65 @@
+alias: Door Bell
+description: ""
+triggers:
+  - type: turned_on
+    device_id: 4547684187ebc8f96dbf2bda2004a8ff
+    entity_id: 54270fe1307ec3cbce0016430c4f711f
+    domain: binary_sensor
+    trigger: device
+conditions: []
+actions:
+  - action: notify.mobile_app_23100rn82l
+    metadata: {}
+    data:
+      message: Alguien tocó el timbre
+      title: Timbre
+      data:
+        image: >-
+          https://3xmuelv4ckj11bmljtxxcpcc625lpdqt.ui.nabu.casa/local/tmp/snapshot-doorbell.jpg
+        actions:
+          - action: URI
+            title: View Camera
+            uri: dashboard-rooms/entrada
+  - action: notify.mobile_app_juli_sm_a566e
+    metadata: {}
+    data:
+      title: Timbre
+      message: Alguien tocó el timbre
+      data:
+        image: >-
+          https://3xmuelv4ckj11bmljtxxcpcc625lpdqt.ui.nabu.casa/local/tmp/snapshot-doorbell.jpg
+        actions:
+          - action: URI
+            title: View Camera
+            uri: dashboard-rooms/entrada
+  - action: notify.mobile_app_danny_sm_s711b
+    metadata: {}
+    data:
+      message: Someone rang the door bell
+      title: Door Bell
+      data:
+        image: >-
+          https://3xmuelv4ckj11bmljtxxcpcc625lpdqt.ui.nabu.casa/local/tmp/snapshot-doorbell.jpg
+        actions:
+          - action: URI
+            title: View Camera
+            uri: dashboard-rooms/entrada
+  - action: notify.mobile_app_des_25069ptebg
+    metadata: {}
+    data:
+      message: Alguien tocó el timbre
+      title: Timbre
+      data:
+        image: >-
+          https://3xmuelv4ckj11bmljtxxcpcc625lpdqt.ui.nabu.casa/local/tmp/snapshot-doorbell.jpg
+        actions:
+          - action: URI
+            title: View Camera
+            uri: dashboard-rooms/entrada
+  - action: camera.snapshot
+    metadata: {}
+    target:
+      entity_id: camera.front_door_fluent
+    data:
+      filename: /config/www/tmp/snapshot-doorbell.jpg
+mode: single
