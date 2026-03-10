@@ -29,4 +29,5 @@ Hostname: Serv-1
 IP: 10.10.10.16
 
 Services:
+  
   -Home Assistant OS
