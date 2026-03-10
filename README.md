@@ -6,7 +6,7 @@ Hostname: RPi5-0
 
 Services:
   
-  -Pihole
+  -[Pihole](http://10.10.10.10/admin)
 
 IP: 10.10.10.10
 
