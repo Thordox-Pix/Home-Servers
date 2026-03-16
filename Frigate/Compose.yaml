@@ -1,0 +1,60 @@
+name: frigate
+services:
+  frigate:
+    cpu_shares: 90
+    command: []
+    container_name: frigate
+    deploy:
+      resources:
+        limits:
+          memory: 7852M
+    devices:
+      - /dev/dri:/dev/dri
+    environment:
+      - FRIGATE_HWACCEL=vaapi
+      - LIBVA_DRIVER_NAME=iHD
+    hostname: frigate
+    image: ghcr.io/blakeblackshear/frigate:stable
+    labels:
+      icon: https://icon.casaos.io/main/all/frigate.png
+    ports:
+      - target: 8971
+        published: "8971"
+        protocol: tcp
+      - target: 8554
+        published: "8554"
+        protocol: tcp
+      - target: 8555
+        published: "8555"
+        protocol: ""
+      - target: 1984
+        published: "1984"
+        protocol: tcp
+    privileged: true
+    restart: unless-stopped
+    shm_size: "1073741824"
+    volumes:
+      - type: bind
+        source: /etc/localtime
+        target: /etc/localtime
+      - type: bind
+        source: /DATA/AppData/frigate/config
+        target: /config
+      - type: bind
+        source: /media/devmon/sdb1-ata-ST3000DM001-1CH1
+        target: /media
+    cap_add: []
+    network_mode: bridge
+x-casaos:
+  author: self
+  category: self
+  hostname: ""
+  icon: https://icon.casaos.io/main/all/frigate.png
+  index: /
+  is_uncontrolled: false
+  port_map: "8971"
+  scheme: https
+  store_app_id: funny_julian
+  title:
+    custom: Frigate
+    en_us: frigate
