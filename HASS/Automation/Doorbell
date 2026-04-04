@@ -8,53 +8,53 @@ triggers:
     trigger: device
 conditions: []
 actions:
-  - action: notify.mobile_app_23100rn82l
+  - action: notify.mobile_app
     metadata: {}
     data:
       message: Alguien tocó el timbre
       title: Timbre
       data:
         image: >-
-          https://3xmuelv4ckj11bmljtxxcpcc625lpdqt.ui.nabu.casa/local/tmp/snapshot-doorbell.jpg
+          [Ha URL]/local/tmp/snapshot-doorbell.jpg
         actions:
           - action: URI
-            title: View Camera
+            title: Ver Camera
             uri: dashboard-rooms/entrada
-  - action: notify.mobile_app_juli_sm_a566e
+  - action: notify.mobile_app...
     metadata: {}
     data:
       title: Timbre
       message: Alguien tocó el timbre
       data:
         image: >-
-          https://3xmuelv4ckj11bmljtxxcpcc625lpdqt.ui.nabu.casa/local/tmp/snapshot-doorbell.jpg
+          [HA URL]/local/tmp/snapshot-doorbell.jpg
         actions:
           - action: URI
-            title: View Camera
+            title: Ver Camera
             uri: dashboard-rooms/entrada
-  - action: notify.mobile_app_danny_sm_s711b
+  - action: notify.mobile_app...
     metadata: {}
     data:
       message: Someone rang the door bell
       title: Door Bell
       data:
         image: >-
-          https://3xmuelv4ckj11bmljtxxcpcc625lpdqt.ui.nabu.casa/local/tmp/snapshot-doorbell.jpg
+          [Ha URL]/local/tmp/snapshot-doorbell.jpg
         actions:
           - action: URI
             title: View Camera
             uri: dashboard-rooms/entrada
-  - action: notify.mobile_app_des_25069ptebg
+  - action: notify.mobile_app
     metadata: {}
     data:
       message: Alguien tocó el timbre
       title: Timbre
       data:
         image: >-
-          https://3xmuelv4ckj11bmljtxxcpcc625lpdqt.ui.nabu.casa/local/tmp/snapshot-doorbell.jpg
+          [HA URL]/local/tmp/snapshot-doorbell.jpg
         actions:
           - action: URI
-            title: View Camera
+            title: Ver Camera
             uri: dashboard-rooms/entrada
   - action: camera.snapshot
     metadata: {}
