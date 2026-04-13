@@ -9,7 +9,7 @@ Services:
 
 IP: 10.10.10.10
   
-  -[Pihole](http://10.10.10.10/admin)
+  -Pihole
 
 Dell Optiplex
 
@@ -19,9 +19,9 @@ IP: 10.10.10.15
 
 Services:
   
-  -[CasaOS](http://10.10.10.15)
+  -CasaOS
   
-  -[Frigate NVR](https://frigate-dkromby.duckdns.org/login)
+  -Frigate NVR
 
 HP Prodesk 600 G1
 
@@ -31,4 +31,4 @@ IP: 10.10.10.16
 
 Services:
   
-  -[Home Assistant OS](https://3xmuelv4ckj11bmljtxxcpcc625lpdqt.ui.nabu.casa)
+  -Home Assistant OS
