@@ -8,8 +8,14 @@ Services:
 
 
 IP: 10.10.10.10
+
+Services:
   
-  -Pihole
+  -CasaOS
+
+    -Pihole
+    -Vaultwarden
+    -Tailscale
 
 Dell Optiplex
 
@@ -21,7 +27,7 @@ Services:
   
   -CasaOS
   
-  -Frigate NVR
+    -Frigate NVR
 
 HP Prodesk 600 G1
 
