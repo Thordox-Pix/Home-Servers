@@ -11,8 +11,7 @@ IP: 10.10.10.10
 
 Services:
   
-  -CasaOS
-
+  CasaOS:
     -Pihole
     -Vaultwarden
     -Tailscale
@@ -25,8 +24,7 @@ IP: 10.10.10.15
 
 Services:
   
-  -CasaOS
-  
+  CasaOS:
     -Frigate NVR
 
 HP Prodesk 600 G1
