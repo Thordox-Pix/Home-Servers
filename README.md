@@ -1,13 +1,8 @@
 # Devices
 
-Raspberry Pi5 8GB
+# Raspberry Pi5 8GB
 
 Hostname: RPi5-0
-
-Services:
-
-
-IP: 10.10.10.10
 
 Services:
   
@@ -17,11 +12,9 @@ Services:
     -Vaultwarden
     -Tailscale
 
-Dell Optiplex
+# Dell Optiplex
 
 Hostname: Serv-0
-
-IP: 10.10.10.15
 
 Services:
   
@@ -29,12 +22,10 @@ Services:
   
     -Frigate NVR
 
-HP Prodesk 600 G1
+# HP Prodesk 600 G1
 
 Hostname: Serv-1
 
-IP: 10.10.10.16
-
 Services:
   
-  -Home Assistant OS
+  Home Assistant OS
