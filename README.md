@@ -20,7 +20,7 @@ Services:
   
   CasaOS:
   
-    -Frigate NVR
+    -[Frigate NVR]https://github.com/Thordox-Pix/Home-Servers/tree/main/Frigate
 
 # HP Prodesk 600 G1
 
