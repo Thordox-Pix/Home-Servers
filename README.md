@@ -1,6 +1,6 @@
 # Devices
 
-# [Raspberry Pi]
+# Raspberry Pi
 
 Hostname: [RPi5-0](https://github.com/Thordox-Pix/Home-Servers/tree/main/RaspberryPi)
 
