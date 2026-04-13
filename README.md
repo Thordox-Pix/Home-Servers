@@ -18,7 +18,7 @@ Hostname: Serv-0
 
 Services:
   
-  CasaOS:
+- CasaOS:
   
   - [Frigate NVR](https://github.com/Thordox-Pix/Home-Servers/tree/main/Frigate)
 
