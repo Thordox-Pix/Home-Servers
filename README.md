@@ -1,8 +1,8 @@
 # Devices
 
-# [Raspberry Pi5 8GB](https://github.com/Thordox-Pix/Home-Servers/tree/main/RaspberryPi)
+# [Raspberry Pi]
 
-Hostname: RPi5-0
+Hostname: [RPi5-0](https://github.com/Thordox-Pix/Home-Servers/tree/main/RaspberryPi)
 
 Services:
   
