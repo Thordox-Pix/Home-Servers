@@ -28,4 +28,4 @@ Hostname: Serv-1
 
 Services:
   
-  Home Assistant OS
+  - [Home Assistant OS](https://github.com/Thordox-Pix/Home-Servers/tree/main/HASS)
