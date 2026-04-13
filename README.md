@@ -6,7 +6,7 @@ Hostname: RPi5-0
 
 Services:
   
-  CasaOS:
+- CasaOS:
   
   - Pihole
   - Vaultwarden
